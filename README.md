@@ -4,6 +4,9 @@ A one-page portfolio for a fictional developer, Alex Rivera, built as a showcase
 
 **Live demo:** https://youssefabotaleb20.github.io/alex-portfolio/
 
+Part of [Youssef Abotaleb's portfolio](https://youssefabotaleb20.github.io/Portfolio/). Alex Rivera is a fictional persona, so the contact links go to the template's author.
+
+
 ## Features
 - Preloader, custom cursor and grain overlay
 - Hero with a particle field and magnetic buttons
