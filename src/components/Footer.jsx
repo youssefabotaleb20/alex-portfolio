@@ -17,7 +17,7 @@ export default function Footer() {
         ))}
       </motion.div>
       <div className="mx-auto mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 font-mono text-xs text-white/40 md:flex-row">
-        <span>© 2026 Alex Rivera — demo portfolio</span>
+        <span>© 2026 Alex Rivera — demo portfolio by <a href="https://youssefabotaleb20.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="underline hover:text-acid">Youssef Abotaleb ↗</a></span>
         <span>Built with React, Tailwind & Framer Motion · Photos: Unsplash</span>
         <a href="#top" className="hover:text-acid">Back to top ↑</a>
       </div>
