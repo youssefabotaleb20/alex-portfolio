@@ -31,10 +31,10 @@ function Field({ label, as = 'input', ...props }) {
 
 const burst = Array.from({ length: 18 }, (_, i) => i)
 const socials = [
-  { l: 'GitHub', href: 'https://github.com' },
-  { l: 'LinkedIn', href: 'https://www.linkedin.com' },
-  { l: 'X / Twitter', href: 'https://x.com' },
-  { l: 'Dribbble', href: 'https://dribbble.com' },
+  // Alex Rivera is a fictional template persona: these point to the template's author.
+  { l: 'GitHub', href: 'https://github.com/youssefabotaleb20' },
+  { l: 'LinkedIn', href: 'https://www.linkedin.com/in/youssef-abotaleb-996a7528a' },
+  { l: 'Template author', href: 'https://youssefabotaleb20.github.io/Portfolio/' },
 ]
 
 export default function Contact() {
@@ -69,7 +69,7 @@ export default function Contact() {
           </h2>
           <FadeUp delay={0.3}>
             <Magnetic strength={0.2}>
-              <a href="mailto:hello@alexrivera.dev" className="mt-10 block font-mono text-xl text-white/80 underline decoration-acid decoration-2 underline-offset-8 hover:text-acid md:text-2xl">
+              <a href="#contact-form" className="mt-10 block font-mono text-xl text-white/80 underline decoration-acid decoration-2 underline-offset-8 hover:text-acid md:text-2xl">
                 hello@alexrivera.dev
               </a>
             </Magnetic>
@@ -86,7 +86,7 @@ export default function Contact() {
         </div>
 
         <FadeUp delay={0.2}>
-          <form onSubmit={submit} className="space-y-10 rounded-3xl border border-white/10 bg-white/[.03] p-8 backdrop-blur-xl md:p-12">
+          <form id="contact-form" onSubmit={submit} className="space-y-10 rounded-3xl border border-white/10 bg-white/[.03] p-8 backdrop-blur-xl md:p-12">
             <Field key={`name-${round}`} label="Your name" name="name" required />
             <Field key={`email-${round}`} label="Email" name="email" type="email" required />
             <Field key={`msg-${round}`} label="Tell me about your project" name="msg" as="textarea" rows={4} required />
